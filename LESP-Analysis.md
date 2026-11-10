@@ -40,3 +40,25 @@ Check whether personal information is protected and whether unauthorized users c
 Ask users to test the platform and provide feedback. This helps identify problems that developers might have missed.
 5. Continuous Improvement
 Regularly review the system, fix errors and improve features based on feedback
+6. Risk Management
+Risk Management means identifying possible problems before they happen and deciding how to prevent or reduce their impact.
+For example, imagine your platform displays organic products.
+- A producer provides false organic certification?
+- Customer information gets leaked?
+- The system displays incorrect prices?
+- A product is out of stock but still available for purchase?
+- Your website stops working?
+These are potential risks.
+Your group needs to identify these risks and explain how to manage them.
+What should you include?
+1. Identify Risks
+Find possible problems that could affect your platform.
+2. Assess Risks
+Understand how serious each problem could be and how likely it is to happen.
+3. Risk Prevention
+Introduce measures to reduce the possibility of problems.
+4. Monitor Risks
+Regularly check the system to identify new problems.
+5. Contingency Planning
+Prepare a backup plan in case something goes wrong
+
