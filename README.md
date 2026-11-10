@@ -22,4 +22,19 @@ In Sprint 1, we focused on strategic process analysis, project setup, and establ
 ## Team
 * Saqlain (50%)
 * Azan (50%)
-* Other members (0% - unresponsive)
+* Other members (0% - unresponsive)## Sprint 2 Updates (Stand-up 1 & 2)
+
+### 1. Operational BPMN Enhancements
+* **Parallel Gateway:** Added to trigger the 'Send Confirmation Email' service task concurrently with the organic verification process.
+* **Timer Boundary Event:** Added a 10-second timeout to the external verification task. If the API does not respond, the process routes to the Admin Manual Review task to prevent system crashes.
+* **Input/Output Mappings:** Implemented variable mappings (`requestedProduct` and `isVerified`) to ensure data flows correctly between the process and the external API.
+
+### 2. Node.js External Task Worker
+* Created a local `worker.js` file using the `@camunda8/sdk`.
+* The worker listens to the `verify-certification` topic, simulates an API delay, and returns the `isVerified: true` variable to Camunda.
+
+### 3. How to Run the Worker
+1. Open a terminal in the `/camunda-worker` directory.
+2. Run `npm install` to install dependencies.
+3. Run `node worker.js` to start the worker.
+4. Ensure the Camunda 8.10 local engine is running before starting the worker.
