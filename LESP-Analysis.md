@@ -40,7 +40,7 @@ Check whether personal information is protected and whether unauthorized users c
 Ask users to test the platform and provide feedback. This helps identify problems that developers might have missed.
 5. Continuous Improvement
 Regularly review the system, fix errors and improve features based on feedback
-6. Risk Management
+##6. Risk Management
 Risk Management means identifying possible problems before they happen and deciding how to prevent or reduce their impact.
 For example, imagine your platform displays organic products.
 - A producer provides false organic certification?
