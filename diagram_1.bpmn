@@ -8,7 +8,8 @@
     <bpmn:userTask id="Task_Submit" name="Submit Product Details">
       <bpmn:extensionElements>
         <zeebe:formDefinition formId="Producer_Submission_Form" />
-        <zeebe:assignmentDefinition candidateGroups="demo" />
+        <zeebe:assignmentDefinition assignee="demo" candidateGroups="demo" />
+        <zeebe:userTask />
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_1</bpmn:incoming>
     </bpmn:userTask>
@@ -85,6 +86,15 @@
           <dc:Bounds x="425" y="102" width="49" height="40" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ManualReview_di" bpmnElement="Task_ManualReview">
+        <dc:Bounds x="560" y="290" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_Error_di" bpmnElement="End_Error">
+        <dc:Bounds x="692" y="312" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="673" y="348" width="74" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="End_Publish_di" bpmnElement="End_Publish">
         <dc:Bounds x="820" y="159" width="36" height="36" />
         <bpmndi:BPMNLabel>
@@ -100,15 +110,6 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0b0gm2j_di" bpmnElement="Task_Verify">
         <dc:Bounds x="550" y="120" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Task_ManualReview_di" bpmnElement="Task_ManualReview">
-        <dc:Bounds x="560" y="290" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="End_Error_di" bpmnElement="End_Error">
-        <dc:Bounds x="692" y="312" width="36" height="36" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="673" y="348" width="74" height="27" />
-        </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_019d9rl_di" bpmnElement="Error_ServiceDown">
         <dc:Bounds x="582" y="182" width="36" height="36" />
