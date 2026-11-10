@@ -16,3 +16,27 @@ Building customer trust is important for the success of our system. If a product
 ## 4. Professional – Code of Conduct
 
 Our group has a professional responsibility to work together respectfully and make sure everyone contributes fairly. When some team members were absent, we communicated with each other, shared responsibilities and focused on completing the project tasks. We tried to support each other and make sure that the absence of any group member did not affect our progress.
+
+## 5. Quality Assurance
+Quality Assurance means making sure that your system works correctly, provides accurate information and meets the expected requirements.
+In our project, we are developing a platform involving producers, organic products and customers. We need to make sure that everything works properly before the system is used.
+What should we include?
+1. Functional Testing
+Check that all features work correctly. For example:
+- Producers can submit product information.
+- Customers can view available products.
+- Products can be displayed correctly.
+- Users can submit information without errors.
+2. Data Validation
+Make sure users enter correct information into forms.
+For example:
+- Product names should not be empty.
+- Prices should be entered in the correct format.
+- Email addresses should be valid.
+- Organic claims should have supporting evidence.
+3. Security Testing
+Check whether personal information is protected and whether unauthorized users can access restricted information.
+4. User Acceptance Testing (UAT)
+Ask users to test the platform and provide feedback. This helps identify problems that developers might have missed.
+5. Continuous Improvement
+Regularly review the system, fix errors and improve features based on feedback
