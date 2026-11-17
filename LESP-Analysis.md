@@ -20,7 +20,7 @@ Our group has a professional responsibility to work together respectfully and ma
 ## 5. Quality Assurance
 Quality Assurance means making sure that your system works correctly, provides accurate information and meets the expected requirements.
 In our project, we are developing a platform involving producers, organic products and customers. We need to make sure that everything works properly before the system is used.
-What should we include?
+What  we include is
 1. Functional Testing
 Check that all features work correctly. For example:
 - Producers can submit product information.
