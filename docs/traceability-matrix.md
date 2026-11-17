@@ -4,7 +4,7 @@ This document links our i* models, Strategic BPMN, Operational BPMN, and Camunda
 
 | ID | Stakeholder Goal (i*) | i* Dependency | Strategic BPMN | Operational BPMN | Camunda Element | Acceptance Criteria | Status |
 |---|---|---|---|---|---|---|---|
-| TR-01 | Producer: Product listed | Producer -> Marketplace: Listing published | Product Listing Sub-Process | Submit Listing Task | product-listing.form | US-01 | In Progress |
-| TR-02 | Marketplace: Valid data | Marketplace -> Producer: Correct info | Validate Listing Task | Validate Gateway | Form Validation | US-02 | Planned ||
-| TR-03 | Marketplace: Safe food | Marketplace -> Admin: Review product | Product Listing Sub-Process | Admin Review Task | Admin_Review_Form.form | US-04 | In Progress |
-| TR-04 | Customer: Trust organic | Marketplace -> Ext Service: Verify cert | Product Listing Sub-Process | Verify Certification Service Task | Service Task (API) | US-03 | Planned |
+| TR-01 | Producer: Product listed | Producer -> Marketplace: Listing published | Product Listing Sub-Process | Submit Listing Task | product-listing.form | US-01 | Complete |
+| TR-02 | Marketplace: Valid data | Marketplace -> Producer: Correct info | Validate Listing Task | Validate Gateway | Form Validation | US-02 | Complete ||
+| TR-03 | Marketplace: Safe food | Marketplace -> Admin: Review product | Product Listing Sub-Process | Admin Review Task | Admin_Review_Form.form | US-04 | Complete |
+| TR-04 | Customer: Trust organic | Marketplace -> Ext Service: Verify cert | Product Listing Sub-Process | Verify Certification Service Task | Service Task (API) | US-03 | Complete|
