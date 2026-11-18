@@ -50,3 +50,4 @@ This repository contains our Sprint 2 implementation for the enterprise marketpl
 *   **Faizan:** i* Socio-Technical Models
 *   **Umiar:** Traceability Matrix & Acceptance Criteria
 *   **Hanan:** LESP Analysis & Risk Mitigation
+"📊 Presentation Slides: Sprint 2 Presentation"
