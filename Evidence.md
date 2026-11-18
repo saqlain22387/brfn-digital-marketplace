@@ -1,3 +1,6 @@
+<img width="1352" height="628" alt="Screenshot 2026-11-18 221624" src="https://github.com/user-attachments/assets/79502bde-10bd-424a-ad59-34ab29cb02db" />
+<img width="784" height="237" alt="Screenshot 2026-11-18 215830" src="https://github.com/user-attachments/assets/71d3167a-16b1-44a1-a1f2-80f10f0273fc" />
+<img width="648" height="260" alt="Screenshot 2026-11-18 233002" src="https://github.com/user-attachments/assets/3116ec1c-8ef3-4e93-8d89-9f068813da06" />
 # Sprint 2 Evidence & Project Management
 
 This document provides visual evidence of our Sprint 2 progress, demonstrating both agile project management and technical execution.
