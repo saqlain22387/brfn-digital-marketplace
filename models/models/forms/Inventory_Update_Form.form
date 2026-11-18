@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "label": "Product ID",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1idpiwh",
+        "columns": null
+      },
+      "id": "Field_1fdpi7g",
+      "key": "productId"
+    },
+    {
+      "label": "New Quantity",
+      "type": "number",
+      "layout": {
+        "row": "Row_0e9zt96",
+        "columns": null
+      },
+      "id": "Field_1gwtuj8",
+      "key": "newQuantity"
+    }
+  ],
+  "type": "default",
+  "id": "Inventory_Update_Form",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.51.1"
+  },
+  "schemaVersion": 19
+}
